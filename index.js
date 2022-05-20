@@ -46,6 +46,7 @@ function Changer(){
     else {
         passwords.setAttribute("type","password");
         document.getElementById('eye').src="images/eyeslash.png";
+        status = true;
     }
 }
 
@@ -59,5 +60,6 @@ function ChangerConfirm(){
     else {
         confirmpass.setAttribute("type","password");
         document.getElementById('eye1').src="images/eyeslash.png";
+        status1= true;
     }
 }
